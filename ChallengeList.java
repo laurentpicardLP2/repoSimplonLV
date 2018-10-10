@@ -26,6 +26,7 @@ public class ChallengeList {
   public static boolean commenceFini(String mot){
     // TODO @A laurent
     int e=3; //branche test
+    
     return mot.charAt(0) == mot.charAt(mot.length() - 1);
   }
 
