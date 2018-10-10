@@ -130,6 +130,7 @@ public class ChallengeList {
 
 }
 =======
+<<<<<<< current
 public class ChallengeList {
 //laurent
   /**
@@ -137,7 +138,6 @@ public class ChallengeList {
   */
   public static double moyenne(double a, double b){
     int c=3;
-    int c=31;
     // TODO @A
     return (a + b) / 2;
   }
