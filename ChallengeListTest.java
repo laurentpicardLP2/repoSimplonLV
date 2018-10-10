@@ -57,13 +57,13 @@ public class ChallengeListTest{
   public static void main(String[] args){
     testMoyenne();
     testPerimetreCarre();
-  /*  testCommenceFini();
+    testCommenceFini();
     testNonMonotone();
     testSquareDigits();
     testTarif();
     testCaGele();
     testFiltreShort();
-    testFiltreLetter(); */
+    testFiltreLetter(); 
   }
 
   public static void assertEquals(String message, String[] expected, String[] res){
