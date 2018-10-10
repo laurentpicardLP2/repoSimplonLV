@@ -4,7 +4,7 @@ public class ChallengeList {
   * retourne la moyenne de a et de b
   */
   public static double moyenne(double a, double b){
-
+    int c=44;
     // TODO @A
     return (a + b) / 2;
   }
@@ -100,7 +100,7 @@ public class ChallengeList {
     // TODO @A
     return null;
   }
-  
+
 
   /**
   * parcourt le tableau de noms et retourne une liste de tous les noms qui commencent par lettre
