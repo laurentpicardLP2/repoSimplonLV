@@ -23,6 +23,7 @@ public class ChallengeListTest{
 
   public static void testNonMonotone(){
     // TODO @A
+    assertTrue("calcul des lettres du début et de la fin", ChallengeList.commenceFini("aaaaaaaaa"));
   }
 
   public static void testTarif(){
