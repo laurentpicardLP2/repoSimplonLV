@@ -28,10 +28,10 @@ public class ChallengeListTest{
 
   public static void testTarif(){
     // TODO @B vincent
-    assertEquals("calcul du tarif", "gratuit", ChallengeList.perimetreCarre(2));
-    assertEquals("calcul du tarif", "reduit", ChallengeList.perimetreCarre(10));
-    assertEquals("calcul du tarif", "plein", ChallengeList.perimetreCarre(38));
-    assertEquals("calcul du tarif", "erreur", ChallengeList.perimetreCarre(-303));
+    assertEquals("calcul du tarif", "gratuit", ChallengeList.tarif(2));
+    assertEquals("calcul du tarif", "reduit", ChallengeList.tarif(10));
+    assertEquals("calcul du tarif", "plein", ChallengeList.tarif(38));
+    assertEquals("calcul du tarif", "erreur", ChallengeList.tarif(-303));
   }
 
   public static void testCaGele(){
@@ -110,13 +110,14 @@ public class ChallengeListTest{
   public static void assertFalse(String message, boolean res){
     assertTrue(message, !res);
   }
-}
 
-public static void assertEquals(String message, String expected, String res){
+
+  public static void assertEquals(String message, String expected, String res){
   if (expected.equals(res)) {
     System.out.println("\nOK >> "+message);
   }
   else {
     throw new Error("\nKO!! >> "+message+" (exp : "+expected+", res : "+res+")");
   }
+}
 }
