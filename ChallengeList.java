@@ -77,8 +77,8 @@ public class ChallengeList {
   **/
   public static String caGele(int temperature){
     // TODO @B vincent
-    if (temperature < 0 && temperature > -274) {
-      return "Ca gèle";
+    if (temperature < 0 && temperature >= -274) {
+      return "Ca gele";
     }
     if (temperature >= 0 && temperature < 5) {
       return "Ca caille";
@@ -89,8 +89,9 @@ public class ChallengeList {
     if (temperature > 90) {
       return "Ca bouille";
     }
+      return "erreur";
 
-  }
+}
 
   /**
   * parcourt le tableau de noms et retourne une liste de tous les noms qui ont une longueur > 2
