@@ -17,7 +17,7 @@ public class ChallengeListTest{
   }
 
   public static void testCommenceFini(){
-    // TODO @B Vincent
+    // TODO @B Vincent 
     assertTrue("calcul des lettres du début et de la fin", ChallengeList.commenceFini("BatmanB"));
   }
 
