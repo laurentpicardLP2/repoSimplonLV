@@ -53,7 +53,18 @@ public class ChallengeList {
   **/
   public static String tarif(int age){
     // TODO @A
-    return null;
+    if(age < 0){
+      return "erreur";
+    }
+    if (age < 3) {
+      return "gratuit";
+    }
+    if(age >=3 && age <=12){
+      return "reduit";
+    }
+    if(age > 12) {
+      return "plein";
+    }
   }
 
   /**
