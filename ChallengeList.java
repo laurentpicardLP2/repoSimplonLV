@@ -1,5 +1,5 @@
 public class ChallengeList {
-
+//laurent
   /**
   * retourne la moyenne de a et de b
   */
