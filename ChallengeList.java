@@ -76,8 +76,20 @@ public class ChallengeList {
   * "erreur" si la tempÃ©rature est infÃ©rieure Ã  -274
   **/
   public static String caGele(int temperature){
-    // TODO @B
-    return null;
+    // TODO @B vincent
+    if (temperature < 0 && temperature > -274) {
+      return "Ca gèle";
+    }
+    if (temperature >= 0 && temperature < 5) {
+      return "Ca caille";
+    }
+    if (temperature >= 5 && temperature <= 90) {
+      return "RAS";
+    }
+    if (temperature > 90) {
+      return "Ca bouille";
+    }
+
   }
 
   /**
