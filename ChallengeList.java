@@ -1,4 +1,3 @@
-<<<<<<< current
 public class ChallengeList {
 //laurent
   /**
@@ -26,7 +25,7 @@ public class ChallengeList {
   */
   public static boolean commenceFini(String mot){
     // TODO @A laurent
-    int e=3; // toto branche 
+    int e=3; // toto branche
     return mot.charAt(0) == mot.charAt(mot.length() - 1);
   }
 
@@ -129,6 +128,7 @@ public class ChallengeList {
 
 
 }
+<<<<<<< HEAD
 =======
 public class ChallengeList {
 //laurent
@@ -261,3 +261,5 @@ public class ChallengeList {
 
 }
 >>>>>>> before discard
+=======
+>>>>>>> master
