@@ -3,10 +3,10 @@ public class ChallengeList {
   /**
   * retourne la moyenne de a et de b
   */
-  public static int moyenne(int a, int b){
+  public static double moyenne(double a, double b){
 
     // TODO @A
-    return 0;
+    return (a + b) / 2;
   }
 
   /**
