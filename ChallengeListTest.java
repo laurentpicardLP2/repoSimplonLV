@@ -35,7 +35,12 @@ public class ChallengeListTest{
   }
 
   public static void testCaGele(){
-    // TODO @A
+    // TODO @B laurent
+    assertEquals("ressenti temperature", "erreur", ChallengeList.caGele(-300));
+    assertEquals("ressenti temperature", "Ca gele", ChallengeList.caGele(-100));
+    assertEquals("ressenti temperature", "Ca caille", ChallengeList.caGele(2));
+    assertEquals("ressenti temperature", "RAS", ChallengeList.caGele(20));
+    assertEquals("ressenti temperature", "Ca bouille", ChallengeList.caGele(20));
   }
 
   public static void testFiltreShort(){
@@ -119,5 +124,5 @@ public class ChallengeListTest{
       throw new Error("\nKO!! >> "+message+" (exp : "+expected+", res : "+res+")");
     }
   }
-  
+
 }
