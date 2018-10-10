@@ -58,19 +58,7 @@ public class ChallengeListTest{
     testMoyenne();
     testPerimetreCarre();
     testCommenceFini();
-<<<<<<< HEAD
-<<<<<<< HEAD
     testNonMonotone();
-=======
-    /*testNonMonotone();
->>>>>>> b828d2e44fd4eab8773b6f478d607304760232b1
-=======
-
-    testNonMonotone();
-
-    testNonMonotone();
-
->>>>>>> 8110fa01e341183de194b4b05c6ff241e2c91508
     testSquareDigits();
     testTarif();
     testCaGele();
