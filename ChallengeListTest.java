@@ -110,13 +110,13 @@ public class ChallengeListTest{
   public static void assertFalse(String message, boolean res){
     assertTrue(message, !res);
   }
-}
 
-public static void assertEquals(String message, String expected, String res){
-  if (expected.equals(res)) {
-    System.out.println("\nOK >> "+message);
-  }
-  else {
-    throw new Error("\nKO!! >> "+message+" (exp : "+expected+", res : "+res+")");
+  public static void assertEquals(String message, String expected, String res){
+    if (expected.equals(res)) {
+      System.out.println("\nOK >> "+message);
+    }
+    else {
+      throw new Error("\nKO!! >> "+message+" (exp : "+expected+", res : "+res+")");
+    }
   }
 }
