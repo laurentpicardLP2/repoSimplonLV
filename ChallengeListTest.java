@@ -4,7 +4,7 @@ public class ChallengeListTest{
 
   public static void main(String[] args) {
 
-    assertEquals("calcul de la moyenne", 11.0, ChallengeList.moyenne(12.0, 10,0));
+    assertEquals("calcul de la moyenne", 11.0, ChallengeList.moyenne(12.0, 10.0));
     System.out.print("Laurent et Vincent");
   }
 
