@@ -40,7 +40,7 @@ public class ChallengeListTest{
     assertEquals("ressenti temperature", "Ca gele", ChallengeList.caGele(-100));
     assertEquals("ressenti temperature", "Ca caille", ChallengeList.caGele(2));
     assertEquals("ressenti temperature", "RAS", ChallengeList.caGele(20));
-    assertEquals("ressenti temperature", "Ca bouille", ChallengeList.caGele(20));
+    assertEquals("ressenti temperature", "Ca bouille", ChallengeList.caGele(200));
   }
 
   public static void testFiltreShort(){
