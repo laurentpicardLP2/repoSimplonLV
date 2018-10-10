@@ -13,7 +13,7 @@ public class ChallengeListTest{
 
   public static void testPerimetreCarre(){
     // TODO @A Laurent
-    assertEquals("calcul de la perimetre", 16, ChallengeList.perimetre(4));
+    assertEquals("calcul de la perimetre", 16, ChallengeList.perimetreCarre(4));
   }
 
   public static void testCommenceFini(){
