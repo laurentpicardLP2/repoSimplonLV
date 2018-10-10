@@ -9,7 +9,6 @@ public class ChallengeListTest{
   public static void testMoyenne(){
     // TODO @B vincent
     assertEquals("calcul de la moyenne", 11.0, ChallengeList.moyenne(12.0, 10.0));
-    assertEquals("calcul de la moyenne ", 11.0, ChallengeList.moyenne(12.0, 10.0));
   }
 
   public static void testPerimetreCarre(){
