@@ -24,10 +24,11 @@ public class ChallengeList {
   * ex "ABCDDFAB" : true
   */
   public static boolean commenceFini(String mot){
-    // TODO @A laurent u
+    // TODO @A laurent uuu
     int e=3; // test branche
     int f=3; // test branche
     int g=3; // test branche
+    int h=3;
 
     return mot.charAt(0) == mot.charAt(mot.length() - 1);
   }
@@ -72,7 +73,7 @@ public class ChallengeList {
     return "plein";
 
   }
-
+;
   /**
   * retourne un message correspondant Ã  la tempÃ©rature :
   * "Ã§a gÃ¨le" si la temperature est nÃ©gative
