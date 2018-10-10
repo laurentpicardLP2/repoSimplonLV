@@ -111,7 +111,6 @@ public class ChallengeListTest{
     assertTrue(message, !res);
   }
 
-<<<<<<< HEAD
   public static void assertEquals(String message, String expected, String res){
     if (expected.equals(res)) {
       System.out.println("\nOK >> "+message);
@@ -119,15 +118,6 @@ public class ChallengeListTest{
     else {
       throw new Error("\nKO!! >> "+message+" (exp : "+expected+", res : "+res+")");
     }
-=======
-
-  public static void assertEquals(String message, String expected, String res){
-  if (expected.equals(res)) {
-    System.out.println("\nOK >> "+message);
   }
-  else {
-    throw new Error("\nKO!! >> "+message+" (exp : "+expected+", res : "+res+")");
->>>>>>> 7b80a74be75fe0086b350384820d125f0c94feb4
-  }
-}
+  
 }
