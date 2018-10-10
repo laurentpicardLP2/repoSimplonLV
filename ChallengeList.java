@@ -18,7 +18,7 @@ public class ChallengeList {
   }
 
   /**
-  * retourne vrai si les 2 lettres du dÃ©but et de la fin sont les mÃªmes
+  * retourne L vrai si les 2 lettres du dÃ©but et de la fin sont les mÃªmes
   * ex "ABCDDFAB" : true
   */
   public static boolean commenceFini(String mot){
