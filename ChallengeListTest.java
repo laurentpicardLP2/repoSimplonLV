@@ -12,7 +12,8 @@ public class ChallengeListTest{
   }
 
   public static void testPerimetreCarre(){
-    // TODO @A
+    // TODO @A Laurent
+    assertEquals("calcul de la perimetre", 16, ChallengeList.perimetre(4));
   }
 
   public static void testCommenceFini(){
@@ -54,14 +55,14 @@ public class ChallengeListTest{
   **/
   public static void main(String[] args){
     testMoyenne();
-    /* testPerimetreCarre();
-    testCommenceFini();
+    testPerimetreCarre();
+  /*  testCommenceFini();
     testNonMonotone();
     testSquareDigits();
     testTarif();
     testCaGele();
     testFiltreShort();
-    testFiltreLetter();*/
+    testFiltreLetter(); */
   }
 
   public static void assertEquals(String message, String[] expected, String[] res){
