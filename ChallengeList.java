@@ -24,7 +24,7 @@ public class ChallengeList {
   * ex "ABCDDFAB" : true
   */
   public static boolean commenceFini(String mot){
-    // TODO @A laurent uuu
+    // TODO @A laurent u
     int e=3; // test branche
     int f=3; // test branche
     int g=3; // test branche
