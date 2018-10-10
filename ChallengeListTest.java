@@ -2,16 +2,16 @@ import java.util.Arrays;
 
 public class ChallengeListTest{
 
-  public static void main(String[] args) {
+
 
     assertEquals("calcul de la moyenne", 11.0, ChallengeList.moyenne(12.0, 10.0));
     System.out.print("Laurent et Vincent");
-  }
+
 
 
 
   public static void testMoyenne(String message, int resAttendu, int res){
-    // TODO @B
+    // TODO @B vincent
   }
 
   public static void testPerimetreCarre(){
