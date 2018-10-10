@@ -18,7 +18,7 @@ public class ChallengeListTest{
 
   public static void testCommenceFini(){
     // TODO @B Vincent
-    assertEquals("calcul des lettres du début et de la fin", true, ChallengeList.commenceFini("BatmanB"));
+    assertTrue("calcul des lettres du début et de la fin", ChallengeList.commenceFini("BatmanB"));
   }
 
   public static void testNonMonotone(){
@@ -58,16 +58,16 @@ public class ChallengeListTest{
     testMoyenne();
     testPerimetreCarre();
     testCommenceFini();
-<<<<<<< HEAD
+
     testNonMonotone();
-=======
-    /*testNonMonotone();
->>>>>>> b828d2e44fd4eab8773b6f478d607304760232b1
+
+    testNonMonotone();
+
     testSquareDigits();
     testTarif();
     testCaGele();
     testFiltreShort();
-    testFiltreLetter(); 
+    testFiltreLetter();
   }
 
   public static void assertEquals(String message, String[] expected, String[] res){
