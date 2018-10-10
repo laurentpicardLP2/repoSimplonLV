@@ -27,7 +27,7 @@ public class ChallengeList {
     // TODO @A laurent
     int e=3; // test branche
     int f=3; // test branche
-    int f=3; // test branche
+    int g=3; // test branche
     return mot.charAt(0) == mot.charAt(mot.length() - 1);
   }
 
@@ -160,7 +160,7 @@ public class ChallengeList {
   public static boolean commenceFini(String mot){
     // TODO @A laurent
     int e=3; //branche test
-    
+
     return mot.charAt(0) == mot.charAt(mot.length() - 1);
   }
 
