@@ -57,8 +57,8 @@ public class ChallengeListTest{
   public static void main(String[] args){
     testMoyenne();
     testPerimetreCarre();
-  /*  testCommenceFini();
-    testNonMonotone();
+    testCommenceFini();
+    /*testNonMonotone();
     testSquareDigits();
     testTarif();
     testCaGele();
