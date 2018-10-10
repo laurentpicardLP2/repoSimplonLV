@@ -32,10 +32,10 @@ public class ChallengeList {
   * "AAAHAA" : true
   */
   public static boolean nonMonotone(String mot){
-    // TODO @B
+    // TODO @B Vincent
       for (int i = 0; i < mot.length(); i++) {
         for (int j = (i + 1); j < mot.length(); j++) {
-          if mot.charAt(i) != mot.charAt(j) {
+          if (mot.charAt(i) != mot.charAt(j)) {
             return false;
           }
       }
