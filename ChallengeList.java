@@ -14,7 +14,7 @@ public class ChallengeList {
   */
   public static int perimetreCarre(int a){
     // TODO @B
-    return 0;
+    return 4 * a;
   }
 
   /**
