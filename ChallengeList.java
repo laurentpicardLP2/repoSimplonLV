@@ -23,7 +23,7 @@ public class ChallengeList {
   */
   public static boolean commenceFini(String mot){
     // TODO @A
-    return false;
+    return mot.charAt(0) == mot.char(mot.length() - 1);
   }
 
   /**
