@@ -17,7 +17,8 @@ public class ChallengeListTest{
   }
 
   public static void testCommenceFini(){
-    // TODO @B
+    // TODO @B Vincent
+    assertEquals("calcul des lettres du début et de la fin", true, ChallengeList.commenceFini(BatmanB));
   }
 
   public static void testNonMonotone(){
