@@ -29,6 +29,7 @@ public class ChallengeList {
     int f=3; // test branche
     int g=3; // test branche
     int h=3;
+    int i=5;
 
     return mot.charAt(0) == mot.charAt(mot.length() - 1);
   }
@@ -132,8 +133,7 @@ public class ChallengeList {
 
 
 }
-<<<<<<< HEAD
-=======
+
 public class ChallengeList {
 //laurent
   /**
@@ -160,8 +160,12 @@ public class ChallengeList {
   * ex "ABCDDFAB" : true
   */
   public static boolean commenceFini(String mot){
-    // TODO @A laurent
-    int e=3; //branche test
+    // TODO @A laurent uu
+    int e=3; // test branche
+    int f=3; // test branche
+    int g=3; // test branche
+    int h=4;
+    int i=5;
 
     return mot.charAt(0) == mot.charAt(mot.length() - 1);
   }
@@ -265,6 +269,3 @@ public class ChallengeList {
 
 
 }
->>>>>>> before discard
-=======
->>>>>>> master
