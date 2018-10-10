@@ -28,6 +28,7 @@ public class ChallengeList {
     int e=3; // test branche
     int f=3; // test branche
     int g=3; // test branche
+    
     return mot.charAt(0) == mot.charAt(mot.length() - 1);
   }
 
