@@ -4,14 +4,11 @@ public class ChallengeListTest{
 
 
 
-    assertEquals("calcul de la moyenne", 11.0, ChallengeList.moyenne(12.0, 10.0));
-    System.out.print("Laurent et Vincent");
 
 
-
-
-  public static void testMoyenne(String message, int resAttendu, int res){
+  public static void testMoyenne(){
     // TODO @B vincent
+    assertEquals("calcul de la moyenne", 11.0, ChallengeList.moyenne(12.0, 10.0));
   }
 
   public static void testPerimetreCarre(){
@@ -57,14 +54,14 @@ public class ChallengeListTest{
   **/
   public static void main(String[] args){
     testMoyenne();
-    testPerimetreCarre();
+    /* testPerimetreCarre();
     testCommenceFini();
     testNonMonotone();
     testSquareDigits();
     testTarif();
     testCaGele();
     testFiltreShort();
-    testFiltreLetter();
+    testFiltreLetter();*/
   }
 
   public static void assertEquals(String message, String[] expected, String[] res){
