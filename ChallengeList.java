@@ -6,7 +6,7 @@ public class ChallengeList {
   public static double moyenne(double a, double b){
     int c=3;
     int d=3;
-
+    int e=4;
     // TODO @A
     return (a + b) / 2;
   }
